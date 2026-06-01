@@ -1,0 +1,29 @@
+Random Forest results:
+Accuracy: 0.6248
+ROC-AUC: 0.6909
+classification_report:
+              precision    recall  f1-score   support
+
+           0     0.5839    0.5894    0.5867     16308
+           1     0.6591    0.6540    0.6566     19796
+
+    accuracy                         0.6248     36104
+   macro avg     0.6215    0.6217    0.6216     36104
+weighted avg     0.6252    0.6248    0.6250     36104
+
+======================================================================
+
+XGBoost results:
+Accuracy: 0.6949
+ROC-AUC: 0.7324
+classification_report:
+              precision    recall  f1-score   support
+
+           0     0.6157    0.8630    0.7187     16308
+           1     0.8314    0.5563    0.6666     19796
+
+    accuracy                         0.6949     36104
+   macro avg     0.7235    0.7097    0.6926     36104
+weighted avg     0.7340    0.6949    0.6901     36104
+
+Saved models: late_delivery_risk_model_rf.joblib, late_delivery_risk_model_xgb.joblib
